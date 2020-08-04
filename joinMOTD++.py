@@ -39,7 +39,7 @@ def format_text(player):  # 加载MOTD内容
         output.append(requests.get(config['one-text-api']).text)
         output.append('')
     if config['display-days']:  # 如果启用了daycount则获取天数并加入输出列表
-        from daycount import getday
+        from plugins.daycount import getday
         day_text = config['day-text'].replace('%day%', getday())
         output.append(day_text)
         output.append('')
