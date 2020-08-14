@@ -3,6 +3,10 @@
 
 ---
 
+### 前置安装
+**Windows**: `pip install requests` 
+**Linux**: `pip3 install requests` 
+
 ### 插件效果  
 ![截图](https://i.loli.net/2020/07/07/ebdyGoVu5Tc2tsD.png)  
  
